@@ -1,6 +1,10 @@
 {
   "dependencies": {
+    "http": "^0.0.1-security",
     "motion": "^12.4.7",
     "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
   }
 }
