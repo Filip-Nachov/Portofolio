@@ -11,6 +11,6 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
 
 <template>
   <WelcomeItem>
-    Hello World
+    <h1>Hello World</h1>
   </WelcomeItem>
 </template>
