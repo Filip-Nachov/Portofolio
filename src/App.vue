@@ -20,5 +20,14 @@ function increment() {
 body{
     background-color: #0d0c0d;
     color: white;
+    font-weight: bold;
 }
+
+button {
+    background-color: #0c0d0c;
+    color: white;
+    border-radius: 20px;
+    border-color: #0d0c0d;
+}
+
 </style>
