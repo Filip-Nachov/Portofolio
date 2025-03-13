@@ -1,11 +1,6 @@
 import { createApp } from 'vue'
+import './App.vue'
 
-const app = createApp({
-    data() {
-        return {
-            count: 0
-        }
-     }
-})
+const app = createApp(App)
 
 app.mount('#app')
