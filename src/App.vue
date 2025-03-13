@@ -16,4 +16,9 @@ function increment() {
   </button>
 </template>
 
-
+<style>
+body{
+    background-color: #0d0c0d;
+    color: white;
+}
+</style>
