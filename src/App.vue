@@ -20,7 +20,9 @@ function increment() {
 body{
     background-color: #0d0c0d;
     color: white;
-    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 button {
