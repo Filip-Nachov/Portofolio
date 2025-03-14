@@ -11,7 +11,7 @@ function increment() {
 </script>
 
 <template>
-  <button @click="increment">
+  <button style="height: 200px; width: 300px; font-size: 100px" @click="increment">
     {{ count }}
   </button>
 </template>
