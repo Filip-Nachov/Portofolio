@@ -8,11 +8,23 @@ console.log(count)
 function increment() {
   count.value++
 }
+
+function decrement() {
+    count.value--
+}
 </script>
 
 <template>
-  <button style="height: 200px; width: 300px; font-size: 100px" @click="increment">
+  <button style="height: 200px; width: 300px; font-size: 100px">
     {{ count }}
+  </button>
+  <br>
+  <button style="height: 200px; width: 400px; font-size: 100px" @click="increment">
+    increase
+  </button>
+  <br>
+  <button style="height: 200px; width: 400px; font-size: 100px" @click="decrement">
+    decrease
   </button>
 </template>
 
