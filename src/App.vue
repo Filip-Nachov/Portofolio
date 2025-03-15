@@ -15,6 +15,9 @@ const about = reactive({
 </script>
 
 <template>
+    <div class="about">
+        {{ about.name }}
+    </div>
 </template>
 
 <style>
