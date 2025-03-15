@@ -1,5 +1,16 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, reactive } from 'vue'
+
+const about = reactive({
+    name: 'Filip Nachov',
+    tags: [
+    ' Macedonian',
+    ' Freelance', ' UTC+1',
+    ' English', ' Available'
+    ]
+
+})
+
 </script>
 
 <template>
