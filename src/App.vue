@@ -10,7 +10,6 @@ const about = reactive({
     ],
     github: 'https://github.com/Filip-Nachov',
     contact: 'fnachov@gmail.com'
-
 })
 
 </script>
@@ -32,6 +31,12 @@ button {
     color: white;
     border-radius: 20px;
     border-color: #0d0c0d;
+}
+
+#about {
+    background-color: #0c0d0c;
+    color: white;
+    border-color: purple;
 }
 
 </style>
