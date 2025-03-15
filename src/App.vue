@@ -7,7 +7,9 @@ const about = reactive({
     ' Macedonian',
     ' Freelance', ' UTC+1',
     ' English', ' Available'
-    ]
+    ],
+    github: 'https://github.com/Filip-Nachov',
+    contact: 'fnachov@gmail.com'
 
 })
 
